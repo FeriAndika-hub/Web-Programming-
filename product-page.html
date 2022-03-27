@@ -67,10 +67,11 @@
         }
 
         .nav-link {
-            font-size: 15px;
+            font-size: 20px;
             font-weight: bold;
-            margin-left: 25px;
-            margin-right: 25px;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding : 5px;
         }
         .nav-link:hover {
             background-color:aquamarine;
@@ -142,12 +143,18 @@
             font-family: Lobster;
             color:rgb(141, 40, 40); 
             text-align: center;
-            transition-property: width;
-            transition-duration: 3s;
         }
 
-        #tool-section2:hover {
-            width : 100%;
+        .promo {
+            animation: myeffect 3s infinite
+        }
+
+        @keyframes myeffect {
+            50% {transform: scale(0.8);}
+        }
+
+        .tulis-promo:hover {
+            font-size: 30px;
         }
 
         .keren:hover{
@@ -239,6 +246,8 @@
             width:300px;
         }
 
+        
+
     </style>
 </head>
 <body>
@@ -298,7 +307,7 @@
                 </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2  ml-4 input-md" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2  ml-4 ml-md-2 input-md" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-primary ml-4" type="submit">Search</button>
                 </form>
             </div>
@@ -362,20 +371,20 @@
             </div>
         </div><br>
         
-            <div class="container">
+            <div class="container promo">
                 <div class="row" id="tool-section">
                     <div class="col-12 text-center m-0 p-0">
                         <p class="m-1">Penuhi Kebutuhan Peliharaan Anda</p>
-                        <p class="m-1">DISKON UP TO 60% !</p>               
+                        <p class="m-1 tulis-promo">DISKON UP TO 60% !</p>               
                     </div>
                 </div>
-            </div><br>
+            </div><br><br>
             
                 <div class="container">
                      <div class="row-4 ">
                             <div class="col m-md-0 text-center" >
                                 <a href="#" class="keren">
-                                    <img src="cloth1.jpg" class="img-responsive" style="float:right;border-radius:30px;width:400px;">
+                                    <img src="cloth1.jpg" class="img-responsive baju-promo" style="float:right;border-radius:30px;width:400px;">
                                 </a>
                             </div>
                             <div class="col text-center">
@@ -384,13 +393,13 @@
                                 <img src="cloth5.jpg" style="width:180px;" class="img-responsive">
                             </div>
                     </div>
-                </div><br><br>
+                </div><br><br><br>
             
-                <div class="container">
+                <div class="container promo">
                     <div class="row-2" id="tool-section2">
                         <div class="col">
                             <p class="m-0">Promo Menarik Perlengkapan dan Aksesoris</p>
-                            <p class="m-0 p-0"> S & K Berlaku</p>
+                            <p class="m-0 p-0 tulis-promo"> S & K Berlaku</p>
                         </div>
                     </div>
                 </div><br><br>
