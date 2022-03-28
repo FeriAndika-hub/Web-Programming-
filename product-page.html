@@ -246,11 +246,60 @@
             width:300px;
         }
 
-        
+        .element-footer {
+            height:350px;
+            background-color:rgb(207, 201, 201);
+            text-decoration: none;
+			
+        }
 
+        .foot {
+            color:black;
+        }
+        .foot:hover {
+            color : blue;
+        }
+
+        .media_sosial {
+            width:80px;
+        }
+
+        .ig:hover {
+
+        }
+    .style1 {
+	font-family: Lobster;
+	font-weight: bold;
+}
     </style>
+    <script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
 </head>
-<body>
+<body onLoad="MM_preloadImages('fb2.png','ig2.png','tw2.png')">
     <div class="container-fluid" id="header">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-7 mt-2">
@@ -275,7 +324,7 @@
         <nav class="navbar navbar-expand-lg navbar-light justify-content-center w-100">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="#">
-                    <img src="logo1.jpg" class="img-fluid" style="width:100px;border-radius: 100px;">
+                    <img src="logo2.jpg" class="img-fluid" style="width:100px;border-radius: 100px;">
                 </a>
                 <button class="navbar-toggler button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -312,8 +361,8 @@
                 </form>
             </div>
             </div>
-          </nav>
-        </div>
+      </nav>
+</div>
         <div class="container-fluid" id="img2">
             <div class="row">
                 <div class="col-12 text-center" id="title">PRODUCT</div>
@@ -378,22 +427,27 @@
                         <p class="m-1 tulis-promo">DISKON UP TO 60% !</p>               
                     </div>
                 </div>
-            </div><br><br>
-            
-                <div class="container">
-                     <div class="row-4 ">
-                            <div class="col m-md-0 text-center" >
-                                <a href="#" class="keren">
-                                    <img src="cloth1.jpg" class="img-responsive baju-promo" style="float:right;border-radius:30px;width:400px;">
-                                </a>
-                            </div>
-                            <div class="col text-center">
-                                <a href="#" style="font-size:25px;font-family: fantasy;font-weight: bold;">Kenakan untuk Peliharaan Anda</a>
-                                <p class="m-0 pb-0">Berbagai pakaian untuk anjing dan kucing </p>
-                                <img src="cloth5.jpg" style="width:180px;" class="img-responsive">
-                            </div>
-                    </div>
-                </div><br><br><br>
+            </div>
+            <div align="center"><br>
+                <br>
+              
+            </div>
+            <div class="container">
+                 <div class="row-4 ">
+                        <div class="col m-md-0 text-center" >
+                            <div align="center"><a href="#" class="keren">
+                              <img src="cloth1.jpg" align="texttop" class="img-responsive baju-promo" style="float:right;border-radius:30px;width:400px;">
+                            </a> </div>
+                        </div>
+                        <div class="col text-center">
+                          <div align="center"><a href="#" style="font-size:25px;font-family: fantasy;font-weight: bold;">Kenakan untuk Peliharaan Anda</a>
+                          </div>
+                            <p align="center" class="m-0 pb-0">Berbagai pakaian untuk anjing dan kucing </p>
+                                <div align="center"><img src="cloth5.jpg" style="width:180px;" class="img-responsive">
+                                    </div>
+                        </div>
+              </div>
+</div><br><br><br>
             
                 <div class="container promo">
                     <div class="row-2" id="tool-section2">
@@ -427,3 +481,120 @@
                     </div>
                 </div>
                 <br><br>
+
+                <footer>
+                    <div class="container">
+                        <div class="row element-footer">
+                            <div class="col text-left mt-3 pl-5" style="width:70%">
+                                <p class="m-1" style="font-size:25px;color:black;font-weight: bold;">
+                                    Hubungi Kami
+                                    <br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Telp : 0274-414329381
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        WA   : +62 82153543824
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Email : <br>
+                                        petsparadise90@gmail.com
+                                    </a><br>
+                                </p>
+                                <p class="m-1 ">
+                                    Senin - Sabtu
+                                    <br>
+                                </p>
+                                <p class="m-1">
+                                    08:00 - 19:00
+                                    <br><br>
+                                </p>
+								<p class="m-1">
+                                    Jl. Mayor Thamrin No.515 <br>
+                                    Jakarta Barat, DKI Jakarta <br>
+                                    10120
+                                </p>
+                            </div>
+                           
+                            <div class="col text-left mt-3 pl-0">
+                                <p class="m-1" style="font-size:25px;color:black;font-weight: bold;">
+                                    Menu
+                                    <br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Home
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Products
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Services
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Logout
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Help
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        FAQ
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col m-3 pl-0 ml-0 text-left">
+                                <p class="m-1" style="font-size:25px;color:black;font-weight: bold;">
+                                    Tentang Kami
+                                    <br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        About Us
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Contact Us
+                                    </a><br>
+                                </p>
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Penawaran & Promo Spesial
+                                    </a><br>
+                                </p>
+                               
+                                <p class="m-1">
+                                    <a href="#" class="foot">
+                                        Blog
+                                    </a><br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div align="center">Copyright 2022. All Rights Reserved.
+                            </div>
+                        </div>
+                      <div class="col">
+                            <p class="style1">Ikuti Kami di : </p>
+                          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fb_logo','','fb2.png',1)"><img src="fb1.png" name="fb_logo" width="80" height="80" border="0"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ig_logo','','ig2.png',1)"> <img src="ig1.png" name="ig_logo" width="80" height="80" border="0"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tw_logo','','tw2.png',1)"> <img src="tw1.png" name="tw_logo" width="80" height="80" border="0"></a></p>
+                      </div>
+                    </div>
+                    
+</footer>
